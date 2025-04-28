@@ -24,15 +24,7 @@
     $college = "FEU Institute of Technology (2023 - Present)";
 
     $skillsHeading = "Skills";
-    $skill1 = "C++";
-    $skill2 = "Java";
-    $skill3 = "Python";
-    $skill4 = "HTML";
-    $skill5 = "CSS";
-    $skill6 = "Javascript";
-    $skill7 = "Adobe Photoshop";
-    $skill8 = "People Skills";
-    $skill9 = "Communication Skills";
+    $skills = array("C++", "Java", "Python", "HTML", "CSS", "Javascript", "Adobe Photoshop", "People Skills", "Communication Skills")
     ?>
     <div class="resume-container">
         <button type="button" onclick="changeColor()">Change Color</button>
@@ -66,15 +58,15 @@
             <section class="right-section">
                 <h2>Skills</h2>
                 <ul>
-                    <li><?= $skill1; ?></li>
-                    <li><?= $skill2; ?></li>
-                    <li><?= $skill3; ?></li>
-                    <li><?= $skill4; ?></li>
-                    <li><?= $skill5; ?></li>
-                    <li><?= $skill6; ?></li>
-                    <li><?= $skill7; ?></li>
-                    <li><?= $skill8; ?></li>
-                    <li><?= $skill9; ?></li>
+                    <li><?= $skills[0]; ?></li>
+                    <li><?= $skills[1]; ?></li>
+                    <li><?= $skills[2]; ?></li>
+                    <li><?= $skills[3]; ?></li>
+                    <li><?= $skills[4]; ?></li>
+                    <li><?= $skills[5]; ?></li>
+                    <li><?= $skills[6]; ?></li>
+                    <li><?= $skills[7]; ?></li>
+                    <li><?= $skills[8]; ?></li>
                 </ul>
             </section>
         </div>
